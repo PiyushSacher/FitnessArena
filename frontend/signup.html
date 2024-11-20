@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Sign Up | Fitclub</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__logo">
+      <a href="#"><img src="../assets/logo.png" alt="Fitclub Logo" /></a>
+    </div>
+    <ul class="nav__links">
+      <li class="link"><a href="index.html">Home</a></li>
+      <li class="link"><a href="#">Program</a></li>
+      <li class="link"><a href="#">Service</a></li>
+      <li class="link"><a href="#">About</a></li>
+      <li class="link"><a href="#">Community</a></li>
+    </ul>
+    <button class="btn cart__btn">
+      <i class="ri-shopping-cart-line"></i> Cart
+    </button>
+  </nav>
+
+  <header class="section__container header__container">
+    <div class="header__content">
+      <h1>Sign Up</h1>
+    </div>
+  </header>
+
+  <section class="section__container signup__container">
+    <div class="signup__form">
+      <form id="signupForm">
+        <h2>Sign Up</h2>
+        <input type="text" id="signupName" placeholder="Name" required />
+        <input type="number" id="signupAge" placeholder="Age" required />
+        <input type="text" id="signupPhone" placeholder="Phone Number" required />
+        <input type="email" id="signupEmail" placeholder="Email" required />
+        <input type="password" id="signupPassword" placeholder="Password" required />
+        <button type="submit" class="btn">Sign Up</button>
+        <p>
+          Already have an account? <a href="login.html">Login here</a>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+

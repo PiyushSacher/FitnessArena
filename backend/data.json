@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "name": "sdfghjkl",
+      "age": "88",
+      "phone": "4567890",
+      "email": "dfghjdfghj@gmail.com",
+      "password": "rtyuio"
+    },
+    {
+      "name": "muskan",
+      "age": "20",
+      "phone": "9518132181",
+      "email": "musk2806@gmail.com",
+      "password": "ambala"
+    },
+    {
+      "name": "piyush",
+      "age": "20",
+      "phone": "9592053053",
+      "email": "piyushsacher18@gmail.com",
+      "password": "ps3018"
+    },
+    {
+      "name": "monika",
+      "age": "50",
+      "phone": "9814782550",
+      "email": "monikarimt@gmail.com",
+      "password": "mnb"
+    },
+    {
+      "name": "jshd",
+      "age": "43",
+      "phone": "324234",
+      "email": "jkj@isw",
+      "password": "ef332rw"
+    },
+    {
+      "name": "palkit",
+      "age": "20",
+      "phone": "32657",
+      "email": "derge@gmail.com",
+      "password": "rrr"
+    },
+    {
+      "name": "fweke",
+      "age": "21",
+      "phone": "r238y1 yr632w",
+      "email": "aasd@f",
+      "password": "vsdfvs221"
+    },
+    {
+      "name": "hello",
+      "age": "34",
+      "phone": "34567",
+      "email": "das@gk",
+      "password": "1234"
+    },
+    {
+      "name": "hy",
+      "age": "8",
+      "phone": "huj",
+      "email": "fe@sr",
+      "password": "hy"
+    },
+    {
+      "name": "re",
+      "age": "34",
+      "phone": "211",
+      "email": "de@gmail",
+      "password": "vf23"
+    }
+  ]
+}

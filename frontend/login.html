@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Login | Fitclub</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__logo">
+      <a href="#"><img src="assets/logo.png" alt="Fitclub Logo" /></a>
+    </div>
+    <ul class="nav__links">
+      <li class="link"><a href="index.html">Home</a></li>
+      <li class="link"><a href="#">Program</a></li>
+      <li class="link"><a href="#">Service</a></li>
+      <li class="link"><a href="#">About</a></li>
+      <li class="link"><a href="#">Community</a></li>
+    </ul>
+    <button class="btn cart__btn">
+      <i class="ri-shopping-cart-line"></i> Cart
+    </button>
+  </nav>
+
+  <header class="section__container header__container">
+    <div class="header__content">
+      <h1>Login</h1>
+    </div>
+  </header>
+
+  <section class="section__container login__container">
+    <div class="login__form">
+      <form id="loginForm">
+        <h2>Login</h2>
+        
+        <!-- Email or Username Label and Input -->
+        <label for="loginEmail">Email or Username</label>
+        <input type="text" id="loginEmail" placeholder="Enter your email or username" required />
+        
+        <!-- Password Label and Input -->
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" placeholder="Enter your password" required />
+        
+        <!-- Login Button -->
+        <button type="submit" class="btn">Login</button>
+        
+        <!-- Signup Link -->
+        <p>
+          Don't have an account? <a href="signup.html">Sign up here</a>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
